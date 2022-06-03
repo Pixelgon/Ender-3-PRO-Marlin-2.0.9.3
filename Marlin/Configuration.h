@@ -902,7 +902,7 @@
  */
 //#define ENDSTOP_NOISE_THRESHOLD 2
 
-// Check for stuck or disconnected endstops during homing moves.
+// Check for stuck or disconnected endstops during homing moves.d
 //#define DETECT_BROKEN_ENDSTOP
 
 //=============================================================================
@@ -930,7 +930,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 87.5 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 139.2 }
 
 /**
  * Default Max Feed Rate (mm/s)
